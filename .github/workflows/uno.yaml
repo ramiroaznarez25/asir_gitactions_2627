@@ -4,14 +4,14 @@ on:
 
 jobs:
   echo_mensaje:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Escribir echo
       run:
         echo "hola"
 
   echo_mensaje2:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Escribir echo 2
       run:
