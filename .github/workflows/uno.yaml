@@ -1,0 +1,19 @@
+name: Github workflows 1
+on:
+  push:
+
+jobs:
+  echo_mensaje:
+    runs_on: ubuntu-latest
+    steps:
+    - name: Escribir echo
+      run:
+        echo "hola"
+
+  echo_mensaje2:
+    runs_on: ubuntu-latest
+    steps:
+    - name: Escribir echo 2
+      run:
+        echo "hola a 2"
+
