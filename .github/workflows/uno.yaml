@@ -15,5 +15,4 @@ jobs:
     steps:
     - name: Escribir echo 2
       run:
-        echo "hola a 2"
-
+        date
